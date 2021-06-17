@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\EmployeeRole\Interfaces\Services\" />
+    <Folder Include="Aggregates\EmployeeRole\Interfaces\Repository\" />
+    <Folder Include="Aggregates\EmployeeRole\Validators\" />
+    <Folder Include="Aggregates\EmployeeRole\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+</Project>
